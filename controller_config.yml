@@ -22,12 +22,13 @@
         name: infra.controller_configuration.labels
       when: controller_labels is defined
 
+# set to false to disable secure logging
     - name: Include users role
       ansible.builtin.include_role:
         name: infra.controller_configuration.users
         state: present
       vars:
-        controller_configuration_users_secure_logging: false # set to false to disable secure logging
+        controller_configuration_users_secure_logging: false
       when: controller_user_accounts is defined
 
     - name: Include teams role
