@@ -10,8 +10,7 @@ controller_groups:
     inventory: Controllers
     hosts:
       - "{{ controller_hostname }}"
-
-   - name: stage
+  - name: stage
     description: Group for new stage environment
     inventory: Controllers
     hosts:
