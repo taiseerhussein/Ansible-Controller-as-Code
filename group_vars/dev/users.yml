@@ -45,4 +45,7 @@ controller_user_accounts:
   - user: taiseer_3
     email: taiseer_3@taiseer-test-org.org
     organization: Taiseer-test-org
+  - user: taiseer_4
+    email: taiseer_4@taiseer-test-org.org
+    organization: Taiseer-test-org
 ...
