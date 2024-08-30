@@ -18,7 +18,4 @@ controller_teams:
   - name: Integrations
     description: Services Integration Team
     organization: Dev
-  - name: test
-    description: Services test Team
-    organization: Dev
 ...
