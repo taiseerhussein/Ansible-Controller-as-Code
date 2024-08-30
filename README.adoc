@@ -59,7 +59,7 @@ This repo currently offers a playbook that will configure Ansible controllers ba
 . Create a GitHub repository secret named CAC_PAT with the PAT as the secret
 . Click *Seed_CaC_Workflow* button below and run workflow
 
-image::https://github.com/r3dact3d/Ansible-Controller-as-Code/actions/workflows/seed-cac-workflow.yml/badge.svg[link="https://github.com/r3dact3d/Ansible-Controller-as-Code/actions/workflows/seed-cac-workflow.yml"]
+image::https://github.com/taiseerhussein/Ansible-Controller-as-Code/actions/workflows/seed-cac-workflow.yml/badge.svg[link="https://github.com/taiseerhussein/Ansible-Controller-as-Code/actions/workflows/seed-cac-workflow.yml"]
 
 NOTE: You can now check the Actions to watch/check the status of the deployment.
 

@@ -7,5 +7,5 @@ controller_projects:
     scm_delete_on_update: 'yes'
     scm_type: git
     scm_update_on_launch: 'yes'
-    scm_url: https://github.com/r3dact3d/Ansible-Controller-as-Code.git
+    scm_url: https://github.com/taiseerhussein/Ansible-Controller-as-Code.git
 ...
