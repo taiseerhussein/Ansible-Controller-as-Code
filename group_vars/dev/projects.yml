@@ -2,7 +2,7 @@
 controller_projects:
   - name: Get Controller Stats Dev
     organization: Dev
-    scm_branch: main
+    scm_branch: dev
     scm_clean: 'no'
     scm_delete_on_update: 'no'
     scm_type: git
@@ -10,7 +10,7 @@ controller_projects:
     scm_url: https://github.com/taiseerhussein/ansiblePlays.git
   - name: Ansible Plays for Dev
     organization: Dev
-    scm_branch: main
+    scm_branch: dev
     scm_clean: 'no'
     scm_delete_on_update: 'no'
     scm_type: git
