@@ -8,4 +8,13 @@ controller_projects:
     scm_type: git
     scm_update_on_launch: 'yes'
     scm_url: https://github.com/taiseerhussein/Ansible-Controller-as-Code.git
+  - name: EE build project
+    scm_type: git
+    scm_url: https://github.com/sean-m-sullivan/ee_definition_config.git
+    scm_branch: main
+    scm_update_on_launch: false
+    description: EE build project
+    organization: Default
+    wait: true
+    update: false
 ...
