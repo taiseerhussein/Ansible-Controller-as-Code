@@ -8,7 +8,7 @@ all:
             controller-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com:
     automationhub:
       hosts:
-        automation-hub-cust-ansible-automation-platform.apps.acm-test.sandbox486.opentlc.com:
+        automation-hub-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com/:
     automationcontroller:
       children:
         dev_controller:
