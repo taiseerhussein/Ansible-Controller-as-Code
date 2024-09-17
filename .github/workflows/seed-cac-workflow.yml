@@ -22,10 +22,10 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
 
-      - name: Install Ansible
-        run: |
-          sudo apt -y update
-          sudo apt -y install ansible
+      # - name: Install Ansible
+      #  run: |
+      #    sudo apt -y update
+      #    sudo apt -y install ansible
 
       - name: Run ansible playbook
         run: |
