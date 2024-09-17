@@ -10,7 +10,7 @@ controller_projects:
     scm_url: https://github.com/taiseerhussein/Ansible-Controller-as-Code.git
   - name: EE build project
     scm_type: git
-    scm_url: https://github.com/sean-m-sullivan/ee_definition_config.git
+    scm_url: https://github.com/taiseerhussein/ee_definition_config.git
     scm_branch: main
     scm_update_on_launch: false
     description: EE build project

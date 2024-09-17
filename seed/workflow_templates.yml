@@ -16,21 +16,22 @@ controller_workflows:
     webhook_credential: CaC_seed_pat
     organization:
       name: Default
-  - name: Update Execution Environments
-    workflow_nodes:
-      - identifier: Build EE's
-        unified_job_template:
-          name: Execution Environment Builder
-          type: job_template
-        organization:
-          name: Default
-        related:
-         success_nodes:
-            - identifier: Push EE's to controller
-      - identifier: Push EE's to controller
-        unified_job_template:
-          name: Push Execution Environments to Controller
-          type: job_template
-        organization:
-          name: Default
+      
+  # - name: Update Execution Environments
+  #   workflow_nodes:
+  #     - identifier: Build EE's
+  #       unified_job_template:
+  #         name: Execution Environment Builder
+  #         type: job_template
+  #       organization:
+  #         name: Default
+  #       related:
+  #        success_nodes:
+  #           - identifier: Push EE's to controller
+  #     - identifier: Push EE's to controller
+  #       unified_job_template:
+  #         name: Push Execution Environments to Controller
+  #         type: job_template
+  #       organization:
+  #         name: Default
 ...

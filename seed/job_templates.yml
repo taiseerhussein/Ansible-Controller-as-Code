@@ -12,21 +12,22 @@ controller_templates:
 
   - name: Execution Environment Builder
     job_type: run
-    inventory: AAP Hosts
+    inventory: Controllers
     credentials:
       - Execution Build Credentials
     project: EE build project
-    execution_environment: Automation Hub Minimal execution environment
+    execution_environment: Minimal execution environment
     playbook: ee_builder_controller.yaml
     extra_vars:
-      ee_registry_dest: hub.nas
+      ee_registry_dest: https://automation-hub-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
       ee_builder_dir_clean: true
-  - name: Push Execution Environments to Controller
-    job_type: run
-    inventory: Blank (localhost only)
-    credentials:
-      - Controller Credential
-    project: EE build project
-    execution_environment: Automation Hub Minimal execution environment
-    playbook: push_to_controller.yaml
+
+  # - name: Push Execution Environments to Controller
+  #   job_type: run
+  #   inventory: Blank (localhost only)
+  #   credentials:
+  #     - Demo Credential
+  #   project: EE build project
+  #  # execution_environment: Automation Hub Minimal execution environment
+  #   playbook: push_to_controller.yaml
 ...
