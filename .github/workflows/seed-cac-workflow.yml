@@ -24,8 +24,8 @@ jobs:
 
       - name: Install Ansible
         run: |
-          sudo apt-get update
-          sudo apt-get install ansible
+          sudo apt -y update
+          sudo apt -y install ansible
 
       - name: Run ansible playbook
         run: |
