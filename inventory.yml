@@ -5,10 +5,10 @@ all:
       children:
         dev_controller:
           hosts:
-            automation-controller-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com:
+            automation-controller-ansible-automation-platform.apps.rosa-4wsds.ljjc.p1.openshiftapps.com:
     automationhub:
       hosts:
-        automation-hub-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com:
+        automation-hub-ansible-automation-platform.apps.rosa-4wsds.ljjc.p1.openshiftapps.com:
     automationcontroller:
       children:
         dev_controller:
